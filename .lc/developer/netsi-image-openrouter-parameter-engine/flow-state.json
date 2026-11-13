@@ -1,0 +1,54 @@
+{
+  "kind": "lc-flow-state",
+  "version": "1.0",
+  "role": "developer",
+  "featureSlug": "netsi-image-openrouter-parameter-engine",
+  "artifactFolder": ".lc/developer/netsi-image-openrouter-parameter-engine/",
+  "repositoryRoot": "/Users/stenhougaard/Documents/GitHub/netsi-image",
+  "lastCompletedPhase": "ship",
+  "nextPhase": null,
+  "discussPhases": [],
+  "maxAttempts": 3,
+  "attemptsUsed": 2,
+  "format": "markdown",
+  "e2e": "not-applicable",
+  "coderParallelism": "bounded",
+  "artifactMode": {
+    "default": "brief",
+    "phaseOverrides": {},
+    "resolvedBy": "default",
+    "updatedAt": "2026-11-11T12:28:59Z"
+  },
+  "openDefects": [],
+  "interactiveDecisions": false,
+  "rhetoric": {
+    "scope": "default",
+    "path": "/Users/stenhougaard/.agents/skills/lc-deliver/references/rhetoric-default.json",
+    "profileName": "default"
+  },
+  "updatedAt": "2026-11-11T13:01:47Z",
+  "executionPath": "full",
+  "discovery": false,
+  "agents": {
+    "spec": {
+      "agent": "lc-spec",
+      "model": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+      "updatedAt": "2026-11-11T12:33:55Z"
+    },
+    "plan": {
+      "agent": "lc-plan",
+      "model": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+      "updatedAt": "2026-11-11T12:38:32Z"
+    },
+    "code": {
+      "agent": "lc-code",
+      "model": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+      "updatedAt": "2026-11-11T12:53:57Z"
+    },
+    "tests": {
+      "agent": "lc-test",
+      "model": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+      "updatedAt": "2026-11-11T12:58:39Z"
+    }
+  }
+}
